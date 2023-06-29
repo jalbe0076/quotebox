@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Quotebox
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+* [Technologies Used](#Technologies-Used)
+* [Context](#Context)
+* [Abstract](##Abstract)
+* [Installation Instructions](#Installation-Instructions)
+* [Preview of App](#Preview-of-App)
+* [Contributors](#Contributors)
+* [Learning Goals](#Learning-Goals)
 
-In the project directory, you can run:
+## Technologies Used
 
-### `npm start`
+- React
+- CSS
+- HTML5
+- JSX
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Context:
+[//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Mod 2 intermission week before Mod 3: 
+    - I am a current students of Turing School of Software & Design
+    - Turing is a 7 month program, which offers a total of 4 modules
+    - This project was completed as part of the intermission work to learn react basics 
+    - A total of approximately 15 hours was spent on this project
 
-### `npm test`
+## Abstract:
+[//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A recreation of a past project written with React, Rest API is used to get a random inspirational quote. Your favourite quotes can be saved and deleted. 
 
-### `npm run build`
+## Installation Instructions:
+[//]: <> (What steps does a person have to take to get your app cloned down and running?)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- If you would like to visit the website, [follow this link!](https://jalbe0076.github.io/quotebox/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you would like to run the app from your machine, follow these instructions:
+1. Fork [this](https://github.com/jalbe0076/overlook) repository  
+1. Clone down your new, forked repo using the command: `git clone git@github.com:jalbe0076/quotebox.git`
+1. Run the command: `cd quotebox`
+1. Run the command: `npm install` to install dependencies
+1. Run the command:  `npm start`
+1. Your browser should open automatically, if not visit `http://localhost:3000/quotebox`
+1. View and save your favourite quotes 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Preview of App:
+[//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
 
-### `npm run eject`
+![quotebox](https://github.com/jalbe0076/quotebox/assets/123283073/251d44ae-2423-4e5f-9e49-061323ffa50e)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributors:
+[//]: <> (Who worked on this application? Link to their GitHubs.)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Jason Alberto](https://github.com/jalbe0076)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
