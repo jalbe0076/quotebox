@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/quotebox/static/css/main.053efab7.css",
+    "main.js": "/quotebox/static/js/main.08a9b79c.js",
+    "static/js/787.f2f01b91.chunk.js": "/quotebox/static/js/787.f2f01b91.chunk.js",
+    "static/media/road-ahead.jpg": "/quotebox/static/media/road-ahead.222c25038f97074b8acf.jpg",
+    "index.html": "/quotebox/index.html",
+    "main.053efab7.css.map": "/quotebox/static/css/main.053efab7.css.map",
+    "main.08a9b79c.js.map": "/quotebox/static/js/main.08a9b79c.js.map",
+    "787.f2f01b91.chunk.js.map": "/quotebox/static/js/787.f2f01b91.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.053efab7.css",
+    "static/js/main.08a9b79c.js"
+  ]
+}
