@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body, button {
+  font-family: 'Inter', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background: url(./images/road-ahead.jpg)
+    no-repeat fixed center;
+    background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button {
+  background: none;
+  border: none;
+}
+
+main {
+  width: 80%;
+  margin: 2em auto 0;
+  max-width: 1020px;
+}
+
+h1, h2 {
+  font-size: 2rem;
+}
+
+.quote-generator, .saved-section {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 1.5em 2em;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  border-radius: 2em;
+  min-height: 270px;
+}
+
+.saved-section {
+  margin-top: 2em;
+  min-height: auto;
+}
+
+.delete-quote {
+  display: block;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.quote-box-btn {
+  background-color: rgba(222, 148, 37, 0.626);
+  padding: .5em 1.5em;
+  border-radius: 1.5em;
+  font-size: .95rem;
+}
+
+.btn-area {
+  display: flex;
+  gap: 2.5em;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.quote {
+  font-size: 1.1rem;
+  margin-top: .8em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.quote-author {
+  margin-top: .5em;
+  font-style: italic;
+  padding: .5em;
+  font-size: .95rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.quote-box-btn:hover {
+  background-color: rgba(222, 148, 37, 0.886);
+}
+
+.delete-quote:hover {
+  background-color: rgb(206, 206, 206);
+}
+@media (min-width: 776px) {
+  .saved-quote {
+    display: flex;
+    justify-content: space-between;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .delete-quote {
+    margin: 0 0 0 2em;
+  }
+}
+
+@media (max-width: 775px) {
+  .quote-generator {
+    min-height: 300px;
+  }
+
+  .saved-quote {
+    display: block;
+  }
+}
+
+@media (max-width: 450px) {
+  h1, h2 {
+    font-size: 1.8rem;
+  }
+
+  .btn-area {
+    gap: .5em;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .quote-generator {
+    min-height: 80vh;
+  }
+}
+
+@media (max-width: 300px) {
+  .quote-generator {
+    min-height: 90vh;
   }
 }
