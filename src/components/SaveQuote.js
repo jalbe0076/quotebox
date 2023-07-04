@@ -1,4 +1,5 @@
 const SaveQuote = ({ savedQuotes, setSavedQuotes, randomQuote }) => {
+
   const saveQuote = (newQuote) => {
     !savedQuotes.find(quote => quote._id === randomQuote._id) && setSavedQuotes([...savedQuotes, newQuote]);
   };

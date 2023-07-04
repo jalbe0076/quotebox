@@ -17,14 +17,13 @@ function App() {
       try {
         const response = await fetch('https://api.quotable.io/quotes/random');
         const data = await errorHandle(response);
-
         setRandomQuote(data[0]);
       } 
       catch (error) {
         setHasError(error);
       }
     })();
-  }, [newQuote]);   
+  }, [newQuote, setRandomQuote]);   
 
   const errorHandle = (response) => {
     if (response.ok) {
